@@ -1,0 +1,7 @@
+operator-bypass: true
+show-motd: true
+broadcast-transitions: true
+maintenance-message: 'Сервер на техническом обслуживании. Причина: {reason}. Окончание: {end}'
+maintenance-motd: 'Технические работы: {reason}'
+opening-message: 'Технические работы завершены. Вход открыт.'
+closing-message: 'Начались технические работы: {reason}. Новые подключения ограничены.'
