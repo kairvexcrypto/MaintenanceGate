@@ -1,0 +1,24 @@
+name: MaintenanceGate
+version: '${project.version}'
+main: ru.warndev.maintenancegate.MaintenanceGatePlugin
+api-version: '1.21.11'
+author: Warndev
+commands:
+  maintenance:
+    aliases: [mgate]
+    description: Manage maintenance admission
+    usage: /mgate help
+    permission: maintenancegate.use
+permissions:
+  maintenancegate.use:
+    default: op
+  maintenancegate.manage:
+    default: op
+  maintenancegate.allowlist:
+    default: op
+  maintenancegate.audit:
+    default: op
+  maintenancegate.reload:
+    default: op
+  maintenancegate.bypass:
+    default: false
